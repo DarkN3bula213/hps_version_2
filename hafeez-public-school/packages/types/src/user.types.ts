@@ -1,5 +1,5 @@
 // User related types for school management
-import type { BaseEntity, Address, ContactInfo } from './common.types';
+import type { BaseEntity, ContactInfo } from './common.types';
 
 export interface Student extends BaseEntity {
   studentId: string;

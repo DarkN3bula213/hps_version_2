@@ -23,6 +23,7 @@ export interface PaginatedResponse<T> {
   };
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export interface ApiResponse<T = any> {
   success: boolean;
   data?: T;
@@ -33,6 +34,7 @@ export interface ApiResponse<T = any> {
 export interface ApiError {
   code: string;
   message: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   details?: any;
 }
 
