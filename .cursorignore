@@ -1,0 +1,5 @@
+config.json      # Specific file
+dist/           # Directory
+*.log           # File extension
+**/logs         # Nested directories
+!app/           # Exclude from ignore (negate)
